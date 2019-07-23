@@ -1,0 +1,117 @@
+body{
+	
+	font-family: cursive;
+	font-size: 10px;
+	margin-top: 0;
+}
+div#menu{
+	text-align: center;	
+	width:30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+ 	background-color: #E4EEF8;
+ 	border-radius: 20px;
+ 	/*position:fixed; top:20%; bottom:20%;*/
+}
+
+div.info{
+	font-size: 1.5em;
+	width:50%;
+	margin-right: 5%;
+	margin-top:2%; 
+	padding: 50px;
+	float: right;		
+ 	background-color: #E4EEF8;
+ 	border-radius: 20px;
+}
+
+footer{
+ 	clear: both;
+}
+
+footer img{
+	margin-left: 0;
+ 	margin-right: 0;
+	width: 100%;
+	height: 100px;
+}
+
+img#usuario {
+	margin-top: 10px;
+	width: 200px;
+	height: 200px;
+	border-radius: 200px; 
+	im
+}
+
+#portfolio img{
+	width:100px;
+	height:100px;
+	float: left;
+}
+
+.botones li:hover {
+	border: 4px solid #00BFFF;
+    color: black;
+    font-size: 1.5em;
+}
+
+.botones li{
+	font-size: 1.6em;
+	text-align: center;
+	border: 2px solid #00BFFF; 
+	margin: 3px;
+	background: white;
+}
+
+ul {
+	padding: 0;
+	list-style:none;
+}
+
+a:link { 
+color: black;	
+text-decoration:none; 
+}
+
+a:visited {
+    color: black;
+}
+
+h2{
+	border-bottom: 2px solid #1B6EB4;
+}
+h1{
+	border-bottom: 2px solid #1B6EB4;
+}
+
+header img{
+	width: 100%;
+	height: 100px;
+}
+
+@media screen and (max-width: 1005px){
+
+	div#menu{
+		text-align: center;	
+		width:60%;
+		margin:5%;
+		padding: 50px;
+		float: none;
+	 	background-color: #E4EEF8;
+	 	border-radius: 20px;
+	 	position:relative;
+	}
+
+	div.info{
+		font-size: 1.5em;
+		width:60%;
+		margin:5%;
+		padding: 50px;
+		float: none;		
+	 	background-color: #E4EEF8;
+	 	border-radius: 20px;
+	}
+}
+
